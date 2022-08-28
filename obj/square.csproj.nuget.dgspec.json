@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Patricio\\Desktop\\Square\\square\\square.csproj": {}
+    "C:\\Users\\Patricio\\Desktop\\Square\\squareGithub\\square\\square.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Patricio\\Desktop\\Square\\square\\square.csproj": {
+    "C:\\Users\\Patricio\\Desktop\\Square\\squareGithub\\square\\square.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Patricio\\Desktop\\Square\\square\\square.csproj",
+        "projectUniqueName": "C:\\Users\\Patricio\\Desktop\\Square\\squareGithub\\square\\square.csproj",
         "projectName": "square",
-        "projectPath": "C:\\Users\\Patricio\\Desktop\\Square\\square\\square.csproj",
+        "projectPath": "C:\\Users\\Patricio\\Desktop\\Square\\squareGithub\\square\\square.csproj",
         "packagesPath": "C:\\Users\\Patricio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Patricio\\Desktop\\Square\\square\\obj\\",
+        "outputPath": "C:\\Users\\Patricio\\Desktop\\Square\\squareGithub\\square\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Patricio\\AppData\\Roaming\\NuGet\\NuGet.Config",

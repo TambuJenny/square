@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lRhkTnYGigvB7ata7oTmXym8lotFtAo/0YmYCs5wM0dDvVsXpKPj6vUjtloH2IQJu1cnVLUfSZzeQ0TZW/IN6A==",
+  "dgSpecHash": "hg8kYAQbghNrgbP9oSASySm9KGLBNu5iBRgawC+P0TLE7TOH8MJpbGngyfJRdoj/xamV6grcaZ00hOVFGtSxBg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Patricio\\Desktop\\Square\\square\\square.csproj",
+  "projectFilePath": "C:\\Users\\Patricio\\Desktop\\Square\\squareGithub\\square\\square.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Patricio\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Patricio\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

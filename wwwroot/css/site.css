@@ -13,16 +13,116 @@ html {
   min-height: 100%;
 }
 
-body {
+.item:hover
+{
+  color: #4E9F3D;
+}
+
+a:hover
+{
+  color: #4E9F3D;
+}
+
+body 
+{
   margin-bottom: 60px;
 }
 
 .grey
 {
-  background-color: #576F72;
- 
+  background-color: #191A19;
 }
+
+.greysegundo
+{
+  background-color: #D9CAB3;
+}
+
 .text-greyWhite
 {
   color: #E4DCCF;
 }
+.colorHeader
+{
+  height: 9.5em;
+  border: 25px solid #D9CAB3;
+  border-radius: 25px;
+  color: #191A19;
+  background-color: #D9CAB3;
+}
+
+.cardCarousel
+{
+  box-shadow: 12px 2px 30px #191A19;
+  height: 14em;
+  width: 18.5em;
+  border: 15px solid #191A19;
+  border-radius: 25px;
+  background-color:#191A19;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.CarouselDiv
+{
+  height: 20em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid #D9CAB3;
+}
+
+.conteudo a
+{
+  font-size: 20px;
+  text-decoration: none;
+  color:#D9CAB3;
+}
+
+.textLink
+{
+  padding-left: 0.8em;
+  padding-top: 3.5em;
+
+}
+
+.textLink p
+{
+  font-size: 2.1vh;
+  color: #D9CAB3;
+  text-align: justify;
+  
+}
+
+.textLink a
+{
+  font-size:5vh;
+  font-style: bold;
+  
+}
+
+.imgDiv
+{
+  border:1px solid #D9CAB3;
+  border-radius: 30px;
+  height: 3.5em;
+  width: 3.5em;
+  position: absolute;
+  top: 2px;
+  right: 5px;
+}
+
+.divPesquisa
+{
+  display: flex;
+  padding-top:5em;
+  align-items: center;
+  justify-content: center;
+}
+
+.borderSite
+{
+  border-color:#D9CAB3;
+}
+
