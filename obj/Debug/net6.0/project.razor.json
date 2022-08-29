@@ -16308,6 +16308,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Patricio\\Desktop\\Square\\squareGithub\\square\\Views\\Home\\CriarConta.cshtml",
+      "TargetPath": "Views\\Home\\CriarConta.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Patricio\\Desktop\\Square\\squareGithub\\square\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"

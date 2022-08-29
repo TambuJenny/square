@@ -1,12 +1,13 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    ViewData["teste"] = 90 ;
 }
 
 <div class="container colorHeader">
     <div class="row">
         <div class="col-md-6">
             <b>
-                <h1 class="display-4">Sejá Bem-vindo</h1>
+                <h1 class="display-4">Sejá Bem-vindo @ViewData["teste"] </h1>
             </b>
             <p>Square Venda de Computador a segunda Mão de boa qualidade</p>
         </div>
@@ -63,11 +64,11 @@
                     <input type="text" class="form-control" id="inputPassword2" placeholder="Pesquisar">
                 </div>
                 <div class="col-auto">
-                    <button class="btn grey text-greyWhite mb-3">Pesquisar</button>
+                    <button class="btn greenBackgroundColor text-greyWhite mb-3">Pesquisar</button>
                 </div>
             </form>
         </div>
-        <div class="btn-group" role="group" aria-label="Basic checkbox toggle button group">
+        <div class="btn-group btnCategorias" role="group" aria-label="Basic checkbox toggle button group">
             <input type="checkbox" class="btn-check borderSite" id="btncheck1" autocomplete="off">
             <label class="btn borderSite " for="btncheck1">Checkbox 1</label>
 

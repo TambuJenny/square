@@ -1,4 +1,4 @@
-import CardProduct from "./../Components/Cards.js";
+import {CardProduct} from "./../Components/Cards.js";
 
 $(document).ready(async function() {
   for (let index = 0; index < 10; index++) {

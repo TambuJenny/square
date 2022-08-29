@@ -38,6 +38,11 @@ body
   background-color: #D9CAB3;
 }
 
+.greenBackgroundColor
+{
+  background-color:#4E9F3D;
+}
+
 .text-greyWhite
 {
   color: #E4DCCF;
@@ -124,5 +129,10 @@ body
 .borderSite
 {
   border-color:#D9CAB3;
+}
+
+.btnCategorias
+{
+  overflow-x: scroll;
 }
 
