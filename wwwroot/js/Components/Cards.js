@@ -7,5 +7,7 @@ export function CardProduct ()
 
 export function CarouselCard()
 {
+    var card = '';
     
+    return card;
 }
