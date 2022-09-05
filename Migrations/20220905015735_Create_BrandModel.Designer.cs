@@ -3,6 +3,7 @@ using System;
 using Infrastruture.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace square.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20220905015735_Create_BrandModel")]
+    partial class Create_BrandModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -45,7 +47,7 @@ namespace square.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("char(36)");
 
-                    b.Property<Guid?>("BrandId")
+                    b.Property<Guid?>("BrandIdId")
                         .HasColumnType("char(36)");
 
                     b.Property<DateTime>("CreatedDate")
@@ -75,17 +77,9 @@ namespace square.Migrations
                     b.Property<int>("Ram")
                         .HasColumnType("int");
 
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
-                    b.Property<Guid?>("UserIdId")
-                        .HasColumnType("char(36)");
-
                     b.HasKey("Id");
 
-                    b.HasIndex("BrandId");
-
-                    b.HasIndex("UserIdId");
+                    b.HasIndex("BrandIdId");
 
                     b.ToTable("PCs");
                 });
@@ -127,17 +121,11 @@ namespace square.Migrations
 
             modelBuilder.Entity("DomaineService.Models.Product.PCModel", b =>
                 {
-                    b.HasOne("DomaineService.Models.Product.BrandModel", "Brand")
+                    b.HasOne("DomaineService.Models.Product.BrandModel", "BrandId")
                         .WithMany()
-                        .HasForeignKey("BrandId");
+                        .HasForeignKey("BrandIdId");
 
-                    b.HasOne("DomainService.Models.UserModel", "UserId")
-                        .WithMany()
-                        .HasForeignKey("UserIdId");
-
-                    b.Navigation("Brand");
-
-                    b.Navigation("UserId");
+                    b.Navigation("BrandId");
                 });
 #pragma warning restore 612, 618
         }

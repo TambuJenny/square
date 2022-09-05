@@ -1,4 +1,5 @@
-using DomainService;
+using DomaineService.Models.Product;
+using DomainService.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
@@ -9,6 +10,8 @@ namespace Infrastruture.Context
         public Context(DbContextOptions<Context> options) : base(options) { }
 
         public virtual DbSet<UserModel> Users {get;set;}
+        public virtual DbSet<PCModel> PCs {get;set;}
+        public virtual DbSet<BrandModel> Brands {get;set;}
 
     }
 

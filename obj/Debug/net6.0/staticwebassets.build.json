@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0rgNp+YPmq/favCwlMt6a8Bw8CtAnPsaJP68GctxE+w=",
+  "Hash": "SGBM1IYsiMDzaxH0AYRkJAUV1ZlJPoK4xKrFQoJpNNY=",
   "Source": "square",
   "BasePath": "_content/square",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\Components\\Cards.js"
+    },
+    {
+      "Identity": "E:\\Square\\squareGithub\\square\\wwwroot\\js\\Components\\CheckBox.js",
+      "SourceId": "square",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\Square\\squareGithub\\square\\wwwroot\\",
+      "BasePath": "_content/square",
+      "RelativePath": "js/Components/CheckBox.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\Components\\CheckBox.js"
     },
     {
       "Identity": "E:\\Square\\squareGithub\\square\\wwwroot\\js\\Pages\\Loja.js",
