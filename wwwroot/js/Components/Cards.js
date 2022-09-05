@@ -5,9 +5,16 @@ export function CardProduct ()
     return card;
 }
 
-export function CarouselCard()
+export function CardAccount(href,cardTitle,cardText)
 {
-    var card = '';
+    var card = '<div class="col-md-4"><div class="card mb-3" style="max-width: 540px;"><div class="row g-0"><div class="col-md-4"><img src="..." class="img-fluid rounded-start" alt="..."></div><div class="col-md-8"><div class="card-body"><h5 class="card-title">'+cardTitle+'</h5><p class="card-text">'+cardText+'</p><p class="card-text"><small class="text-muted"><a href='+href+'>Saber mais</a></small></p></div></div></div></div></div>';
+    
+    return card;
+}
+
+export function CardCarousel (title,descicao,urlFoto)
+{
+    var card = '<div class="carousel-item "><div class=""><div class="card cardCarousel"><div class="conteudo"><div class="textLink"> <a class="white-text item" href="">'+title+'</a><p>'+descicao+'</p></div><img class="imgDiv" src="'+urlFoto+'"></div></div></div></div>';
     
     return card;
 }

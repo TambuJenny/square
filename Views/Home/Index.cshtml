@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
-    ViewData["teste"] = 90 ;
+    ViewData["teste"] = 90;
 }
 
 <div class="container colorHeader">
@@ -25,25 +25,14 @@
                         <div class="">
                             <div class="card cardCarousel">
                                 <div class="conteudo">
-                                    <div class="textLink"> <a class="white-text item" href="">Hp</a>
-                                        <p>Rua 15, Martires do Kifangondo. Venda de Computador a bom preço.</p>
-                                    </div>
-                                    <div class="imgDiv"> <img src="https://imgur.com/J11mEBq.png"></div>
+                                    <div class="textLink"> <a class="white-text item" href="">'+title+'</a>
+                                        <p>'+descicao+'</p>
+                                    </div><img class="imgDiv" src="'+urlFoto+'">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <div class="col">
-                            <div class="card cardCarousel">
-                                <div class="conteudo">
-                                    <img src="https://imgur.com/J11mEBq.png">
-                                    <a class="white-text item" href="">Hp</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    <div class="" id="CardCarousel"></div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
                     data-bs-slide="prev">
@@ -95,6 +84,11 @@
 
         </div>
 
+        <br>
+        <br>
+        <div class="" id="cardAccount"></div>
+
+
     </div>
 </div>
 
@@ -102,3 +96,5 @@
 
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<script type="module" src="~/js/site.js" asp-append-version="true"></script>

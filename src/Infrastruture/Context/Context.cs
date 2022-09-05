@@ -1,3 +1,4 @@
+using DomainService;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 
@@ -6,6 +7,9 @@ namespace Infrastruture.Context
     public class Context : DbContext
     {
         public Context(DbContextOptions<Context> options) : base(options) { }
+
+        public virtual DbSet<UserModel> Users {get;set;}
+
     }
 
     public class DatabaseContextFactory : IDesignTimeDbContextFactory<Context>
